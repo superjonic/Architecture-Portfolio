@@ -1,9 +1,14 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+import{ Box, CardMedia, Paper } from '@mui/material';
+import content from '../data/index';
+
+const {houses, plans} = content
 
 export default function Section() {
+
+  console.log(content)
   return (
+
     <Box
       sx={{
         display: 'flex',
@@ -17,10 +22,21 @@ export default function Section() {
       }}
     
     >
-      <Paper elevation={1} />
-      <Paper elevation={10}/>
-      <Paper elevation={3} />
-      <Paper elevation={6} />
+      <Paper elevation={1}>
+         <CardMedia image = {houses[0]} style ={{height:'50vh'}} />
+      </Paper>
+        
+      <Paper elevation={10}> 
+          <CardMedia image = {houses[1]} style ={{height: '50vh'}}/>
+      </Paper>
+
+      <Paper elevation={3}> 
+        <CardMedia image = {plans[2]} style ={{height: '50vh'}}/>
+      </Paper>
+
+      <Paper elevation={6}>
+        <CardMedia image ={plans[1]} style={{height: '50vh'}}/>
+      </Paper>
     </Box>
   );
 }
