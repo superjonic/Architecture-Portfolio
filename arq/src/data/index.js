@@ -16,7 +16,7 @@ import detail1 from './plans/plano4.jpg';
 
 
 
-var content = { 
+export var content = { 
     text: {
 
     },
@@ -53,4 +53,79 @@ var content = {
     
 }
 
-export default content
+export var images = [
+    // {
+    //     img: geo1,
+    //     title: "",
+    //     rows: 2,
+    //     cols: 2
+    // },
+    // {
+    //     img: geo2,
+    //     title: "",
+    //     rows: 3,
+    //     cols: 2
+    // },
+    // {
+    //     img: geo3,
+    //     title: "",
+    //     rows: 3 
+    // },
+    {
+        img: image1,
+        title: "",
+        cols: 2,
+        rows: 2
+        
+    },
+    {
+        img: image2,
+        title: "",
+        cols: 4,
+        rows: 4
+    },
+    {
+        img: image3,
+        title: "",
+        cols: 2,
+        rows: 1
+    },
+    {
+        img: image4, 
+        title: "",
+        cols: 2,
+        rows: 2
+    },
+    {
+        img:  structure1, 
+        title: "",
+        cols: 2,
+        rows: 2
+    },
+    {
+        img:  plan1, 
+        title: "",
+        cols: 2        
+    },
+    {
+        img:  plan2, 
+        title: "",
+        cols: 2,
+        
+    },
+    {
+        img:  plan3, 
+        title: "",
+        cols: 2,
+        rows: 2
+        
+    },
+    {
+        img:  detail1, 
+        title: "",
+        cols: 4,
+        rows: 2
+        
+    },
+]
+

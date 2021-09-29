@@ -1,7 +1,9 @@
 import Section from "./components/Section";
 import Header from "./components/Header";
+
 import GridDespareja from "./components/GridDespareja";
 import FiboSection from "./components/FiboSection";
+import MaterialTest from "./components/MaterialTest";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
    
     <Header />
     <Section />
+    <MaterialTest />
    
     {/* <GridDespareja />
     <FiboSection /> */}
