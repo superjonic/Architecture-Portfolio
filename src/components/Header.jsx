@@ -34,7 +34,6 @@ export default function Header() {
             <Typography variant ="body2" component="h1" align= "center" >Minimalismo</Typography>
             <Typography variant ="body2" component ="h1" align= "center" >Eficiencia</Typography>
             <Typography variant ="body2" component ="h1" align= "center" >Proporcion</Typography>
-            <Typography variant ="body2" component ="h1" align= "center" >Geometria</Typography>
             <Typography variant ="body2" component ="h1" align= "center" >Inspiracion</Typography>
         </Paper>
 

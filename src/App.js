@@ -3,7 +3,8 @@ import Header from "./components/Header";
 
 import GridDespareja from "./components/GridDespareja";
 import FiboSection from "./components/FiboSection";
-import MaterialTest from "./components/MaterialTest";
+import GridImage1 from "./components/GridImage1";
+import GridImage2 from "./components/GridImage2";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
    
     <Header />
     {/* <Section /> */}
-    <MaterialTest />
+    <GridImage1 />
+    <GridImage2 />
    
     {/* <GridDespareja />
     <FiboSection /> */}

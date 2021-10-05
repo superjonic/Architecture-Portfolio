@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import {images} from '../data/index';
+import {plans} from '../data/index';
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -12,19 +12,20 @@ function srcset(image, size, rows = 1, cols = 1) {
   };
 }
 
-export default function MaterialTest() {
+export default function GridImage1() {
   
 
   return (
     <ImageList
       sx={{ width: '80%' }}
-      variant="quilted"
-      cols={6}
-      gap={5}
-      rowHeight={180}
+      variant="masonry"
+      cols={3}
+      gap={50}
+      rowHeight={150}
       style={{margin:'auto'}}
+    
     >
-      {images.map((item) => (
+      {plans.map((item) => (
         <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
           <img
             {...srcset(item.img, 121, item.rows, item.cols)}

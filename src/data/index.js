@@ -53,24 +53,68 @@ export var content = {
     
 }
 
+export var plans = [
+          
+    {
+        img: geo2,
+        title: "",
+        rows: 2,
+        cols: 3
+    },
+  
+    {
+        img: geo3,
+        title: "",
+        rows: 3 
+    },
+   
+    {
+        img:  plan1, 
+        title: "",
+        cols: 2,
+        rows: 1  
+
+    },
+  
+    {
+        img:  plan2, 
+        title: "",
+        cols: 2,
+        rows: 2
+        
+    },
+    {
+        img:  structure1, 
+        title: "",
+        cols: 2,
+        rows: 4
+    },
+    {
+        img: geo1,
+        title: "",
+        rows: 1,
+        cols: 4
+    },
+    {
+        img:  plan3, 
+        title: "",
+        cols: 2,
+        rows: 1
+        
+    },
+    {
+        img:  detail1, 
+        title: "",
+        cols: 4,
+        rows: 2
+        
+    },
+
+]
+
+
 export var images = [
-    // {
-    //     img: geo1,
-    //     title: "",
-    //     rows: 2,
-    //     cols: 2
-    // },
-    // {
-    //     img: geo2,
-    //     title: "",
-    //     rows: 3,
-    //     cols: 2
-    // },
-    // {
-    //     img: geo3,
-    //     title: "",
-    //     rows: 3 
-    // },
+  
     {
         img: image1,
         title: "",
@@ -96,36 +140,36 @@ export var images = [
         cols: 2,
         rows: 2
     },
-    {
-        img:  structure1, 
-        title: "",
-        cols: 2,
-        rows: 2
-    },
-    {
-        img:  plan1, 
-        title: "",
-        cols: 2        
-    },
-    {
-        img:  plan2, 
-        title: "",
-        cols: 2,
+    // {
+    //     img:  structure1, 
+    //     title: "",
+    //     cols: 2,
+    //     rows: 2
+    // },
+    // {
+    //     img:  plan1, 
+    //     title: "",
+    //     cols: 2        
+    // },
+    // {
+    //     img:  plan2, 
+    //     title: "",
+    //     cols: 2,
         
-    },
-    {
-        img:  plan3, 
-        title: "",
-        cols: 2,
-        rows: 2
+    // },
+    // {
+    //     img:  plan3, 
+    //     title: "",
+    //     cols: 2,
+    //     rows: 2
         
-    },
-    {
-        img:  detail1, 
-        title: "",
-        cols: 4,
-        rows: 2
+    // },
+    // {
+    //     img:  detail1, 
+    //     title: "",
+    //     cols: 4,
+    //     rows: 2
         
-    },
+    // },
 ]
 
