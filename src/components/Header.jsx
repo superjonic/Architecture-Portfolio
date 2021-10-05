@@ -20,24 +20,22 @@ export default function Header() {
         display: 'flex',
         
         '& > :not(style)': {
-          m: 1,
+          
           width: '100%',
           height: 130,
         },
         justifyContent: 'center',
-        marginBottom: '3vw'
+        
+        flexDirection: 'column'
       }}>
-        <Paper elevation ={0}> 
-            <Typography variant ="h2" align= "center" >BRIL ARK</Typography>
+        <Typography variant ="h2" align= "center" style={{height:'14vh'}} >BRIL ARK</Typography>
+
+        <Paper elevation ={0} style={{display:'flex', flexDirection:'row', justifyContent:'space-around', height:'10vh'}}> 
             <Typography variant ="body2" component="h1" align= "center" >Minimalismo</Typography>
             <Typography variant ="body2" component ="h1" align= "center" >Eficiencia</Typography>
             <Typography variant ="body2" component ="h1" align= "center" >Proporcion</Typography>
             <Typography variant ="body2" component ="h1" align= "center" >Geometria</Typography>
             <Typography variant ="body2" component ="h1" align= "center" >Inspiracion</Typography>
-
-
-
-
         </Paper>
 
         
