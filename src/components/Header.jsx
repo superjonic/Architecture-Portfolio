@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Container, Paper, Typography } from '@mui/material';
+import {Container, Paper, Typography} from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
 
@@ -35,7 +35,7 @@ export default function Header() {
         flexDirection: 'column'
       }}>
         <Typography variant ="h2" align= "center" style={{height:'10vh'}} >BRIL ARK</Typography>
-        <Typography variant ="subtitle2" align= "center" style={{height: '1%', fontSize: "0.85rem", color:'rgb(42, 43, 44)'}} >STUDIO</Typography>
+        <Typography variant ="subtitle2" align= "center" style={{height: '1%', fontSize: "0.85rem", color:'rgb(42, 43, 44)'}} >ARQUITECTURA</Typography>
         
 
         <Paper elevation ={0} style={{display:'flex', justifyContent:'center', height:'10vh', marginTop:'1vh'}}> 

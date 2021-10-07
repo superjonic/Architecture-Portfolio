@@ -1,6 +1,6 @@
 import Section from "./components/Section";
 import Header from "./components/Header";
-
+import Footer from "./components/Footer";
 import GridDespareja from "./components/GridDespareja";
 import FiboSection from "./components/FiboSection";
 import GridImage1 from "./components/GridImage1";
@@ -14,7 +14,7 @@ function App() {
     {/* <Section /> */}
     <GridImage1 />
     <GridImage2 />
-   
+    <Footer />
     {/* <GridDespareja />
     <FiboSection /> */}
 
