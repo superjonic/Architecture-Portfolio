@@ -20,9 +20,9 @@ export default function Footer(){
             // }}
             >
                 
-                <BottomNavigationAction label="Recents" icon={<WhatsAppIcon />} />
+                <BottomNavigationAction label="Whatsapp" icon={<WhatsAppIcon />} />
                 <BottomNavigationAction label="Favorites" icon={<EmailIcon />} />
-                <BottomNavigationAction label="Archive" icon={<ShareIcon />} />
+                <BottomNavigationAction label="Share"  icon={<ShareIcon />} />
             </BottomNavigation>
         </Paper>
 
