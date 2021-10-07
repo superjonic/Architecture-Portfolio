@@ -6,7 +6,13 @@ import { makeStyles } from '@mui/styles';
 const useStyles = makeStyles((theme) => ({
   container : {
     border: `solid 3px ${theme.palette.primary.dark}` 
-  }
+  },
+  textMin: {
+    [theme.breakpoints.down('sm')]: {
+      fontSize: [10, '!important'],
+    },
+  
+   }
 
 }))
 
@@ -28,13 +34,15 @@ export default function Header() {
         
         flexDirection: 'column'
       }}>
-        <Typography variant ="h2" align= "center" style={{height:'14vh'}} >BRIL ARK</Typography>
+        <Typography variant ="h2" align= "center" style={{height:'10vh'}} >BRIL ARK</Typography>
+        <Typography variant ="subtitle2" align= "center" style={{height: '1%', fontSize: "0.85rem", color:'rgb(42, 43, 44)'}} >STUDIO</Typography>
+        
 
-        <Paper elevation ={0} style={{display:'flex', flexDirection:'row', justifyContent:'space-around', height:'10vh'}}> 
-            <Typography variant ="body2" component="h1" align= "center" >Minimalismo</Typography>
-            <Typography variant ="body2" component ="h1" align= "center" >Eficiencia</Typography>
-            <Typography variant ="body2" component ="h1" align= "center" >Proporcion</Typography>
-            <Typography variant ="body2" component ="h1" align= "center" >Inspiracion</Typography>
+        <Paper elevation ={0} style={{display:'flex', justifyContent:'center', height:'10vh', marginTop:'1vh'}}> 
+            <Typography component="h4" className={classes.textMin} > m i n i m a l i s m o e f i c i e n c i a p r o p o r c i o n i n s p i r a c i o n</Typography>
+            {/* <Typography component ="h4" >eficiencia</Typography>
+            <Typography  component ="h4">proporcion</Typography>
+            <Typography  component ="h4" >inspiracion</Typography> */}
         </Paper>
 
         
