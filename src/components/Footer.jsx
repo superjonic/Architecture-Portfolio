@@ -24,6 +24,7 @@ export default function Footer(){
                 <BottomNavigationAction label="Favorites" icon={<EmailIcon />} />
                 <BottomNavigationAction label="Share"  icon={<ShareIcon />} />
             </BottomNavigation>
+            
         </Paper>
 
     )
